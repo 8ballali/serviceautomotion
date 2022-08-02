@@ -58,7 +58,6 @@ public static function boot(){
         return $this->roles->name;
     }
 
-
     public function customer()
     {
         return $this->hasOne(Customer::class,'user_id','id');
